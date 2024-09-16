@@ -6,7 +6,7 @@ let contrasena = document.getElementById('contrasena')
 function generar(){
 
     let numeroDigitado = parseInt (cantidad.value) // parseInt convierte el tipo de variable a INT
-    console.log(numeroDigitado)
+
     if(numeroDigitado < 8){
         alert("La cantidad Minima de caracteres es 8"); // funcion  alert para mostar mensaje al usuario
     }else{
@@ -14,7 +14,7 @@ function generar(){
         for(let i=0; i < numeroDigitado; i ++){
     
             let caracterAleatorio = cadenaCaracteres[Math.floor(Math.random() * cadenaCaracteres.length)]; //en cada iteraccion se obtine char dif
-            console.log(caracterAleatorio);
+  
     
             password+=caracterAleatorio;
         }
