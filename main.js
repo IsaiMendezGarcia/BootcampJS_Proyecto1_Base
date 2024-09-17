@@ -50,11 +50,11 @@ function medirSeguridad(){
 
     // Evalua Nivel de Seguridad
 
-    if(nivelSeguridad === 5){
+    if(nivelSeguridad >= 4){
         alert("La contraseña es muy fuerte");
-    }else if ( nivelSeguridad >= 3){
+    }else if ( nivelSeguridad === 3){
         alert("La contraseña es fuerte");
-    }else if( nivelSeguridad === 2){
+    }else if( nivelSeguridad ===2){
         alert("La contraseña es debil");
     }else{
         alert("La contraseña es muy debil");
