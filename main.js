@@ -19,6 +19,7 @@ function generar(){
             password+=caracterAleatorio; // se concatena e indexa el char enterior a la variable "password"
         }
         contrasena.value= password;
+        medirSeguridad();
     }  
 }
 
